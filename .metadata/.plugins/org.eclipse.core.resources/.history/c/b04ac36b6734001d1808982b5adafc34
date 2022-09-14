@@ -9,17 +9,14 @@ public class Main {
 		System.out.println(ortaMetin);
 		String altMetin = "Vade Süresi";
 		System.out.println(altMetin);
-		int vade = 12;
-		double dolarDun = 18.14;
-		double dolarBugun = 18.09;
-		boolean dolarDustuMu = false;
-		if (dolarDun > dolarBugun)
-			dolarDustuMu = true;
+		int vade=12;
+		double dolarDun=18.14;
+		double dolarBugun=18.10;
+		boolean dolarDustumu=false;
+	if(dolarDun>dolarBugun) dolarDustumu=true;
+ 
 
-		if (dolarDustuMu)
-			System.out.println("Evet");
-		else
-			System.out.println("Hayır");
+	if(dolarDustumu)System.out.println("Evet");
 	}
 
 }
