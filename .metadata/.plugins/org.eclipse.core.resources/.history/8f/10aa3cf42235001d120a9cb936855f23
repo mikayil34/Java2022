@@ -28,11 +28,6 @@ public class Main {
 
 		}
 
-		String[] krediler = { "Hızlı kredi", "Maaşını halkbank", "mütlu Kredi" };
-		for (int i = 0; i < krediler.length; i++) {
-			System.out.println(krediler[i]);
-		}
-
 	}
 
 }

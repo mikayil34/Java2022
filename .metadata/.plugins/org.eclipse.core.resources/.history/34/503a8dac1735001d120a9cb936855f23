@@ -1,0 +1,27 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World!");
+		String ortaMetin = "ilginizi çekebilir";
+		System.out.println(ortaMetin);
+		String altMetin = "Vade Süresi";
+		System.out.println(altMetin);
+		int vade = 12;
+		double dolarDun = 18.14;
+		double dolarBugun = 18.09;
+		boolean dolarDustuMu = false;
+		String okYonu = "";
+
+		if (dolarDun > dolarBugun)
+			dolarDustuMu = true;
+
+		if (dolarDustuMu)
+			System.out.println("Evet");
+		else
+			System.out.println("Hayır");
+	}
+
+}
